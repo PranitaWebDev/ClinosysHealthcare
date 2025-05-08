@@ -1888,7 +1888,7 @@ ul.link-list li:first-child {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		display: block;
-		height: 44px;
+		height: 86px;
 		left: 0;
 		position: fixed;
 		top: 0;
