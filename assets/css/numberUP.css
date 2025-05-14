@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.marign-box {
+  margin: 11px;
+}
+
+.NumberUp_section {
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.NumberUpwrapper {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.NumberUpcontainer {
+  width: 50vmin;
+  margin: auto;
+  padding: .5em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.NumberUpcontainer:nth-child(1) {
+  background-color: #800080 !important;
+  /* background-image: linear-gradient(25deg, #800080, #c3a7c3) */
+}
+
+
+.NumberUpcontainer:nth-child(2) {
+  background-color: #191970 !important;
+  /* background-image: linear-gradient(25deg, #191970, #b7c7dc9c); */
+}
+
+
+
+.NumberUpcontainer:nth-child(3) {
+  background-color: #6B8E23 !important;
+  /* background-image: linear-gradient(25deg, #3c530e, #ecc2c7); */
+}
+
+.NumberUpcontainer:nth-child(4) {
+
+  background-color: #9e1b32 !important;
+  /* background-image: linear-gradient(25deg, #9e1b32, #d0cbcc) !important; */
+
+}
+
+.NumberUpcontainer:nth-child(5) {
+  background-color: #4D5D53 !important;
+  /* background-image: linear-gradient(25deg, #4D5D53, #8aa293); */
+}
+
+
+
+.NumberUpcontainer:nth-child(6) {
+  background-color: #FEBE10 !important;
+  /* background-image: linear-gradient(25deg, #87A96B, #bbcfab); */
+
+}
+
+.NumberUpcontainer:nth-child(7) {
+  background-color: #e4181e !important;
+  /* background-image: linear-gradient(25deg, #08c9cd, #bad5d6); */
+}
+
+
+.top_icon {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+
+
+.plus_icon-1Digit,
+.plus_icon-2Digit,
+.plus_icon_3Digit,
+.plus_icon_6Digit {
+  color: #ffffff;
+  font-weight: 1000;
+}
+
+span.NumbueUP_num,
+span.NumbueUP_num2,
+span.NumbueUP_num3,
+span.NumbueUP_num4 {
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 1.7em;
+  position: relative;
+}
+
+.plus_icon-Digit {
+  margin-left: .5rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+
+span.NumberUp_text {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  /* pad: 0.7em 0; */
+  font-weight: 700;
+  padding: .8rem;
+
+}
+
+.font_size-k {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.numPlusIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .NumberUpcontainer {
+    font-size: 12px;
+  }
+
+  .font_size-k {
+    font-size: 1.5rem;
+  }
+
+  span.NumbueUP_num,
+  span.NumbueUP_num2,
+  span.NumbueUP_num3,
+  span.NumbueUP_num4 {
+    font-size: 1.8em;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .NumberUpwrapper {
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: .5rem
+  }
+
+  .NumberUpcontainer {
+    width: calc(50% - 40px);
+    /* height: 16vmin; */
+    font-size: 12px;
+  }
+
+  span.NumbueUP_num,
+  span.NumbueUP_num2,
+  span.NumbueUP_num3 {
+    font-size: 1.5em;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .NumberUpwrapper {
+    gap: .5rem;
+  }
+
+  .NumberUpcontainer {
+    width: 90vw;
+    /* height: 20vmin; */
+    font-size: 15px;
+  }
+
+  span.NumbueUP_num,
+  span.NumbueUP_num2,
+  span.NumbueUP_num3 {
+    font-size: 2em;
+  }
+
+  .marign-box {
+    margin: 0px;
+  }
+
+}
